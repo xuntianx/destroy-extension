@@ -1,0 +1,574 @@
+[
+  {
+    "id": "entrance",
+    "author": "hernandack",
+    "page": "https://opengameart.org/content/short-loops-background-music-pack",
+    "download": "https://opengameart.org/sites/default/files/Swinging%20Sweet_0.ogg",
+    "member": "swing.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "5a22466a7ec28c324324217aff836809ccbc9e2489cc22ebf72725f4bfd320bb",
+    "file": "entrance.opus",
+    "sha256": "f4f297cea039cfaafc3164f325a40b80a815c7b1e775131793de80d7ecd07b77",
+    "bytes": 27301,
+    "processing": {
+      "trimSeconds": 1.8,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.04",
+        "afade=t=out:st=1.35:d=0.45"
+      ],
+      "codec": "Opus",
+      "channels": 2
+    }
+  },
+  {
+    "id": "destruction",
+    "author": "hernandack",
+    "page": "https://opengameart.org/content/short-loops-background-music-pack",
+    "download": "https://opengameart.org/sites/default/files/Swinging%20Sweet_0.ogg",
+    "member": "swing.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "5a22466a7ec28c324324217aff836809ccbc9e2489cc22ebf72725f4bfd320bb",
+    "file": "destruction.opus",
+    "sha256": "5c169d2b8df984bbf3dbcd065358f931ac9f0e45d4bf42876adc506d10c2f9b5",
+    "bytes": 349752,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7"
+      ],
+      "codec": "Opus",
+      "channels": 2
+    }
+  },
+  {
+    "id": "ruins",
+    "author": "hernandack",
+    "page": "https://opengameart.org/content/short-loops-background-music-pack",
+    "download": "https://opengameart.org/sites/default/files/Winter%20Dust_0.ogg",
+    "member": "winter.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "8c0da93d35ddfb3c8e4cc01ce4ba6611fb407eec4b6c23f17a691ad7dc0f1fe0",
+    "file": "ruins.opus",
+    "sha256": "a83b4dc3b03062081e1ee4b01936ae2e780101e00c2a062e55547a995271942b",
+    "bytes": 296417,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7"
+      ],
+      "codec": "Opus",
+      "channels": 2
+    }
+  },
+  {
+    "id": "restoration",
+    "author": "hernandack",
+    "page": "https://opengameart.org/content/short-loops-background-music-pack",
+    "download": "https://opengameart.org/sites/default/files/A%20Brand%20New%20Wisdom.ogg",
+    "member": "wisdom.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "99d0095c328d598f5fb1bca9fbb4a518112bbf676dc662f0c0c6edfee88d788c",
+    "file": "restoration.opus",
+    "sha256": "59f6b321f0c4b33cc86e25ae9105b6b82a237992a91ad27e8802ab6d2c096772",
+    "bytes": 269880,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7"
+      ],
+      "codec": "Opus",
+      "channels": 2
+    }
+  },
+  {
+    "id": "sleep",
+    "author": "hernandack",
+    "page": "https://opengameart.org/content/short-loops-background-music-pack",
+    "download": "https://opengameart.org/sites/default/files/A%20Brand%20New%20Wisdom.ogg",
+    "member": "wisdom.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "99d0095c328d598f5fb1bca9fbb4a518112bbf676dc662f0c0c6edfee88d788c",
+    "file": "sleep.opus",
+    "sha256": "4c5a9a0039c278dee6e90929c5f91383c510af46d8ebaade68c8bb778860b130",
+    "bytes": 55241,
+    "processing": {
+      "trimSeconds": 3.3,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.04",
+        "afade=t=out:st=2.8499999999999996:d=0.45"
+      ],
+      "codec": "Opus",
+      "channels": 2
+    }
+  },
+  {
+    "id": "roar",
+    "author": "rubberduck",
+    "page": "https://opengameart.org/content/80-cc0-creature-sfx",
+    "download": "https://opengameart.org/sites/default/files/80-CC0-creature-SFX_0.zip",
+    "member": "roar_02.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "ceb532ee0fe775d6f86a821099b75f1790ab8022b963cb837c8c1fa4fffee5c2",
+    "file": "roar.opus",
+    "sha256": "ca9e34482acf4d00501aecd78d21cf0febbfc284e67bdf029dea301e8e83b7bb",
+    "bytes": 5607,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "breathing",
+    "author": "rubberduck",
+    "page": "https://opengameart.org/content/80-cc0-creature-sfx",
+    "download": "https://opengameart.org/sites/default/files/80-CC0-creature-SFX_0.zip",
+    "member": "breath.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "d6ecfd092c261059701fe81581957ce6e67c1737978449bbd98ec6d4f30abb7f",
+    "file": "breathing.opus",
+    "sha256": "1a671e5957f2ab0eb0bafe56ececde1000d67615d649dd8f22a9aeeda7f384a5",
+    "bytes": 4280,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "snore",
+    "author": "rubberduck",
+    "page": "https://opengameart.org/content/80-cc0-creature-sfx",
+    "download": "https://opengameart.org/sites/default/files/80-CC0-creature-SFX_0.zip",
+    "member": "snore.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "9edd6540801b7a044c30d89bab70dab20647b2f7a6db3ddb269c6203de8b4fb3",
+    "file": "snore.opus",
+    "sha256": "82b455a7384ecc9ed380a0db692c9d0f3df5e9fc4a24cb2ccb38c9a4b9101ba2",
+    "bytes": 3220,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "charge",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/sci-fi-sounds",
+    "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+    "member": "Audio/forceField_000.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "c2916f2a062c8ddd1aca2826d134fe90847037db31342726ffb0f9097afe339c",
+    "file": "charge.opus",
+    "sha256": "c3b96759bec194d62fc8dcd0f91668bedfd09bbec9faf5288fbb88e8f47e2522",
+    "bytes": 7898,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "breath",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/sci-fi-sounds",
+    "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+    "member": "Audio/thrusterFire_000.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "0fdc474d93f209debf1fc4ea77765a669dcb7676db31b4d8a0a509685bccf374",
+    "file": "breath.opus",
+    "sha256": "484114c777a10ce8cd232a8cf4fb0caf15ccfd7210278e95d99cd72c70759072",
+    "bytes": 17093,
+    "processing": {
+      "trimSeconds": 2.8,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003",
+        "afade=t=out:st=2.5999999999999996:d=0.2"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "release",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/sci-fi-sounds",
+    "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+    "member": "Audio/explosionCrunch_000.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "4b597d658d0ae101f0a030fbeea5fc3a4292ab85f017470a8254a8e7959cbd69",
+    "file": "release.opus",
+    "sha256": "618cf65816b14ef87d3c82bbd6cda706f0bd248747f630eba6186c28d64d7b6f",
+    "bytes": 4418,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "question",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "member": "Audio/question_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a",
+    "file": "question.opus",
+    "sha256": "38e604e26170a60414ce0620e7bfb984162afd5441bb94859320e7588c4c9732",
+    "bytes": 3049,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "confirm",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "member": "Audio/confirmation_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+    "file": "confirm.opus",
+    "sha256": "0ad95cbffc6f8a88b6b07fba392b50394738c60a92fada29a7a1b6910efdd328",
+    "bytes": 2182,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "assemble",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "member": "Audio/maximize_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "fd3e75e1de2f2fda90aceeacaeb0427ac8bddd3b07a6ce2a8f9ba923df3771f9",
+    "file": "assemble.opus",
+    "sha256": "63a5d4a8616bf311e80644a002a6ffd5b4545e3604c12f4e7ce3b91f60afd0ed",
+    "bytes": 2153,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "assemble1",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "member": "Audio/maximize_002.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "cc51162cb4506158b953b121bf479aad070056533ade5c5cd2f980183127ceb4",
+    "file": "assemble1.opus",
+    "sha256": "b8a0a93ca122800f2170436f080cc426c7e27852af413b30cfc46de88a3724ec",
+    "bytes": 1771,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "accent",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "member": "Audio/pluck_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4",
+    "file": "accent.opus",
+    "sha256": "a3a19d15c8a59308e0fc56842a247f195bd353f56bb72a16b4ea2f126da783c9",
+    "bytes": 891,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "claw0",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "member": "Audio/impactPunch_heavy_000.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8",
+    "file": "claw0.opus",
+    "sha256": "2787b51acf02ae97c55be822fccdf067b0c8674567b8778df643ad3e89ad99d2",
+    "bytes": 4212,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "tail0",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "member": "Audio/impactWood_heavy_000.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "15ff82332f342c30e469215539e1cc57e11b221aa2cf7e11e811d313a9927f3d",
+    "file": "tail0.opus",
+    "sha256": "0750333eb2028318ef43a4171d0fc76c6ef0dcee4a298f24b82437b73efecb0a",
+    "bytes": 2835,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "debris0",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "member": "Audio/impactPlank_medium_000.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "8403cd7a043f0391574c88c55dd205743725b5363d2407f6de145f201690b68f",
+    "file": "debris0.opus",
+    "sha256": "65f5bab28f66fedcae840f80eef00e21d1a414eaf7c113fa8f179e43e57eb247",
+    "bytes": 3717,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "paper0",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "member": "Audio/bookFlip1.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+    "file": "paper0.opus",
+    "sha256": "44819e334abd36fed00fa3e3d29e962b703cf0b58b7ff54a2b7ff80a155ab38a",
+    "bytes": 4930,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "whoosh0",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "member": "Audio/knifeSlice.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f",
+    "file": "whoosh0.opus",
+    "sha256": "8cc8fe726a8d1fdc21b3ad96becd54d0570a0bb0141568cd8ac007712de5732a",
+    "bytes": 3765,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "claw1",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "member": "Audio/impactPunch_heavy_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "f92f5cb6ba4ff2766497292ffd90865654317eeca976f5652e0708dbdcdc0dd9",
+    "file": "claw1.opus",
+    "sha256": "2ae38fb4d7111864edd70e6000750f6f2edb28beae998f13dbcd86b712adce8f",
+    "bytes": 3385,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "tail1",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "member": "Audio/impactWood_heavy_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "f1b07a53ac10c615fff9ba470511fdeb722b5902e1a8520759fc20ad6f546015",
+    "file": "tail1.opus",
+    "sha256": "d43ab3f9553031c409edc6034cff079bb9f4f3fdce0249c072c94e1c12f35bef",
+    "bytes": 3019,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "debris1",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "member": "Audio/impactPlank_medium_001.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "d7c304319f8beac616231b62041fa8da74045b62d7155965516efb9b19303df4",
+    "file": "debris1.opus",
+    "sha256": "62bf000631ecc3530952df9f5d700ce23acfb4ce1c4e62d4115ed6c3c53cd24d",
+    "bytes": 3620,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "paper1",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "member": "Audio/bookFlip2.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c",
+    "file": "paper1.opus",
+    "sha256": "ef057d36b4e83cfbb629f38677efd037a9754662f1543c4259d2bf209350b909",
+    "bytes": 2765,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  },
+  {
+    "id": "whoosh1",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "member": "Audio/knifeSlice2.ogg",
+    "license": "CC0-1.0",
+    "verified": "2026-09-22",
+    "sourceSha256": "6c2064d0ef988d1ec3d56868e823ea8823a5cac00f2742560052633529407def",
+    "file": "whoosh1.opus",
+    "sha256": "d719bc63fc27fbc70dae06ef00949465345e755187374e088a4ca621dbe82560",
+    "bytes": 3665,
+    "processing": {
+      "trimSeconds": null,
+      "filters": [
+        "loudnorm=I=-22:TP=-3:LRA=7",
+        "afade=t=in:d=0.003"
+      ],
+      "codec": "Opus",
+      "channels": 1
+    }
+  }
+]

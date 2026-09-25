@@ -1,0 +1,184 @@
+{
+  "entrance": {
+    "file": "entrance.opus",
+    "kind": "phrase",
+    "gain": 0.45,
+    "duration": 1.8065,
+    "crossfade": 0
+  },
+  "destruction": {
+    "file": "destruction.opus",
+    "kind": "loop",
+    "gain": 0.45,
+    "duration": 25.0065,
+    "crossfade": 0.12
+  },
+  "ruins": {
+    "file": "ruins.opus",
+    "kind": "loop",
+    "gain": 0.22,
+    "duration": 23.0065,
+    "crossfade": 0.12
+  },
+  "restoration": {
+    "file": "restoration.opus",
+    "kind": "loop",
+    "gain": 0.42,
+    "duration": 16.7065,
+    "crossfade": 0.12
+  },
+  "sleep": {
+    "file": "sleep.opus",
+    "kind": "phrase",
+    "gain": 0.3,
+    "duration": 3.3065,
+    "crossfade": 0
+  },
+  "roar": {
+    "file": "roar.opus",
+    "kind": "effect",
+    "gain": 0.48,
+    "duration": 0.909167,
+    "crossfade": 0
+  },
+  "breathing": {
+    "file": "breathing.opus",
+    "kind": "effect",
+    "gain": 0.18,
+    "duration": 0.676917,
+    "crossfade": 0
+  },
+  "snore": {
+    "file": "snore.opus",
+    "kind": "effect",
+    "gain": 0.25,
+    "duration": 0.448792,
+    "crossfade": 0
+  },
+  "charge": {
+    "file": "charge.opus",
+    "kind": "effect",
+    "gain": 0.3,
+    "duration": 0.960521,
+    "crossfade": 0
+  },
+  "breath": {
+    "file": "breath.opus",
+    "kind": "effect",
+    "gain": 0.4,
+    "duration": 2.8065,
+    "crossfade": 0
+  },
+  "release": {
+    "file": "release.opus",
+    "kind": "effect",
+    "gain": 0.32,
+    "duration": 0.783958,
+    "crossfade": 0
+  },
+  "question": {
+    "file": "question.opus",
+    "kind": "effect",
+    "gain": 0.28,
+    "duration": 0.497188,
+    "crossfade": 0
+  },
+  "confirm": {
+    "file": "confirm.opus",
+    "kind": "effect",
+    "gain": 0.35,
+    "duration": 0.296354,
+    "crossfade": 0
+  },
+  "assemble": {
+    "file": "assemble.opus",
+    "kind": "effect",
+    "gain": 0.22,
+    "duration": 0.264896,
+    "crossfade": 0
+  },
+  "assemble1": {
+    "file": "assemble1.opus",
+    "kind": "effect",
+    "gain": 0.22,
+    "duration": 0.264792,
+    "crossfade": 0
+  },
+  "accent": {
+    "file": "accent.opus",
+    "kind": "effect",
+    "gain": 0.35,
+    "duration": 0.108917,
+    "crossfade": 0
+  },
+  "claw0": {
+    "file": "claw0.opus",
+    "kind": "effect",
+    "gain": 0.65,
+    "duration": 0.655521,
+    "crossfade": 0
+  },
+  "tail0": {
+    "file": "tail0.opus",
+    "kind": "effect",
+    "gain": 0.6,
+    "duration": 0.319542,
+    "crossfade": 0
+  },
+  "debris0": {
+    "file": "debris0.opus",
+    "kind": "effect",
+    "gain": 0.28,
+    "duration": 0.7855,
+    "crossfade": 0
+  },
+  "paper0": {
+    "file": "paper0.opus",
+    "kind": "effect",
+    "gain": 0.25,
+    "duration": 0.775146,
+    "crossfade": 0
+  },
+  "whoosh0": {
+    "file": "whoosh0.opus",
+    "kind": "effect",
+    "gain": 0.45,
+    "duration": 0.606042,
+    "crossfade": 0
+  },
+  "claw1": {
+    "file": "claw1.opus",
+    "kind": "effect",
+    "gain": 0.65,
+    "duration": 0.542438,
+    "crossfade": 0
+  },
+  "tail1": {
+    "file": "tail1.opus",
+    "kind": "effect",
+    "gain": 0.6,
+    "duration": 0.319542,
+    "crossfade": 0
+  },
+  "debris1": {
+    "file": "debris1.opus",
+    "kind": "effect",
+    "gain": 0.28,
+    "duration": 0.7855,
+    "crossfade": 0
+  },
+  "paper1": {
+    "file": "paper1.opus",
+    "kind": "effect",
+    "gain": 0.25,
+    "duration": 0.436938,
+    "crossfade": 0
+  },
+  "whoosh1": {
+    "file": "whoosh1.opus",
+    "kind": "effect",
+    "gain": 0.45,
+    "duration": 0.575292,
+    "crossfade": 0
+  }
+}

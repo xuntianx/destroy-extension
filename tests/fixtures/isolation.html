@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Destroy · 输入隔离对照</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f4f4e9;
+        color: #294431;
+        font:
+          16px/1.7 system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 1040px;
+        margin: auto;
+        padding: 28px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      .columns {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+      }
+      section {
+        min-width: 0;
+      }
+      .panel {
+        min-height: 300px;
+        background: #fffef7;
+        border: 1px solid #c3ceb9;
+        border-radius: 10px;
+      }
+      iframe {
+        width: 100%;
+        height: 300px;
+        box-sizing: border-box;
+      }
+      #full-screen {
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        max-width: none;
+        max-height: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: #fffef7;
+      }
+      #full-screen iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+      }
+      button {
+        padding: 8px 14px;
+        margin: 8px 8px 8px 0;
+        font: inherit;
+      }
+      pre {
+        white-space: pre-wrap;
+        padding: 16px;
+        background: #e5ebdb;
+        font: 13px/1.8 monospace;
+      }
+      #bridge,
+      #probe {
+        display: block;
+        min-height: 1.8em;
+      }
+      @media (max-width: 760px) {
+        .columns {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>同一个问题，两种输入边界</h1>
+      <p>
+        对照页在输入界面创建之前注册网页捕获监听。左侧复用现有 Shadow DOM
+        事件阻断；右侧使用不同来源的
+        iframe。这里只验证浏览器输入隔离，不代表扩展已经采用 iframe。
+      </p>
+      <div class="columns">
+        <section>
+          <h2>Shadow DOM</h2>
+          <div id="shadow" class="panel"></div>
+        </section>
+        <section>
+          <h2>跨来源 iframe</h2>
+          <iframe id="frame" class="panel" title="隔离答题框"></iframe>
+        </section>
+      </div>
+      <button id="reset" type="button">清零事件计数</button>
+      <button id="full" type="button">全屏覆盖试验</button>
+      <button id="probe" type="button">检查父页面能否读取回答</button>
+      <button id="forge" type="button">从父页面伪造完成消息</button>
+      <output id="probe-result"></output>
+      <output id="bridge">尚未收到完成信号</output>
+      <pre id="metrics"></pre>
+      <p>
+        计数器仅保存事件类型和次数。iframe
+        清空回答后只回传完成信号，不传回答内容。真实扩展的资源访问规则、CSP、快捷键和离屏声音仍需单独验证。
+      </p>
+    </main>
+    <dialog id="full-screen" aria-label="全屏输入隔离试验"></dialog>
+    <script type="module" src="isolation.ts"></script>
+  </body>
+</html>

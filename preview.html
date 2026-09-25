@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>摧毁 · Sound room</title>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">DESTROY · SOUND ROOM</p>
+      <h1>听听它的脾气。<br /><small>Meet its sound.</small></h1>
+      <p>
+        从热闹到安静，再慢慢归位。 / From release to reflection and recovery.
+      </p>
+      <div class="controls">
+        <label
+          >总音量 / Master
+          <input id="master" type="range" min="0" max="100" value="50" /></label
+        ><label
+          >音乐 / Music
+          <input id="music" type="range" min="0" max="100" value="55" /></label
+        ><label
+          >音效 / Effects
+          <input id="effects" type="range" min="0" max="100" value="80"
+        /></label>
+      </div>
+      <h2>五个阶段 / Five moments</h2>
+      <div id="stages" class="grid"></div>
+      <button id="pause">暂停 / Pause</button
+      ><button id="resume">继续 / Resume</button
+      ><button id="stop">停止 / Stop</button>
+      <p id="status" role="status">
+        点击一段声音开始试听。 / Choose a sound to begin.
+      </p>
+      <h2>动作的声音 / Sounds of action</h2>
+      <div id="effects-list" class="grid"></div>
+      <details>
+        <summary>素材与许可 / Sources & licenses</summary>
+        <p>
+          Music: hernandack · Short Loops Background Music Pack. Creature
+          voices: rubberduck · 80 CC0 creature SFX. Foley: Kenney · Impact, RPG,
+          Sci-fi & Interface Sounds. All CC0.
+        </p>
+        <p>
+          本页和插件使用同一套混音器；此处试听不能证明 Chrome
+          快捷键的首次自动播放已通过。 / This page uses the extension mixer;
+          shortcut autoplay still requires extension testing.
+        </p>
+        <button id="verify">检查本地音频 / Check local audio</button
+        ><output id="verification"></output>
+      </details>
+    </main>
+    <script type="module" src="/src/audio/preview.ts"></script>
+  </body>
+</html>

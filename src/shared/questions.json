@@ -1,0 +1,302 @@
+[
+  {
+    "id": "Q01",
+    "theme": "重新开始",
+    "zh": "如果可以重新开始，你想改变什么？",
+    "en": "If you could start again, what would you change?"
+  },
+  {
+    "id": "Q02",
+    "theme": "重新开始",
+    "zh": "重新开始时，你最想保留什么？",
+    "en": "What would you most want to keep if you started again?"
+  },
+  {
+    "id": "Q03",
+    "theme": "重新开始",
+    "zh": "如果只重做一小步，你会选哪一步？",
+    "en": "If you could redo one small step, which would it be?"
+  },
+  {
+    "id": "Q04",
+    "theme": "重新开始",
+    "zh": "什么会让这一次和上一次不同？",
+    "en": "What could make this time different from the last?"
+  },
+  {
+    "id": "Q05",
+    "theme": "重新开始",
+    "zh": "如果今天是一张新纸，你会先写下什么？",
+    "en": "If today were a fresh page, what would you write first?"
+  },
+  {
+    "id": "Q06",
+    "theme": "可控之事",
+    "zh": "眼前这件事里，你能决定的一小部分是什么？",
+    "en": "What is one small part of this situation you can decide for yourself?"
+  },
+  {
+    "id": "Q07",
+    "theme": "可控之事",
+    "zh": "哪一部分，你愿意暂时交给时间？",
+    "en": "Which part would you be willing to leave to time for now?"
+  },
+  {
+    "id": "Q08",
+    "theme": "可控之事",
+    "zh": "如果结果暂时不变，你想怎样度过接下来的十分钟？",
+    "en": "If the outcome stays the same for now, how would you like to spend the next ten minutes?"
+  },
+  {
+    "id": "Q09",
+    "theme": "可控之事",
+    "zh": "有什么事，你可以允许它按自己的节奏发生？",
+    "en": "What could you allow to unfold at its own pace?"
+  },
+  {
+    "id": "Q10",
+    "theme": "可控之事",
+    "zh": "今天，你想把注意力放在哪里？",
+    "en": "Where would you like to put your attention today?"
+  },
+  {
+    "id": "Q11",
+    "theme": "轻重与取舍",
+    "zh": "眼前的事里，哪一件对你最重要？",
+    "en": "Which of the things in front of you matters most to you?"
+  },
+  {
+    "id": "Q12",
+    "theme": "轻重与取舍",
+    "zh": "如果今天少做一件事，你会放下哪件？",
+    "en": "If you did one less thing today, what would you leave out?"
+  },
+  {
+    "id": "Q13",
+    "theme": "轻重与取舍",
+    "zh": "有什么值得你慢一点对待？",
+    "en": "What deserves a little more time from you?"
+  },
+  {
+    "id": "Q14",
+    "theme": "轻重与取舍",
+    "zh": "你想把省下来的力气留给什么？",
+    "en": "What would you like to save your energy for?"
+  },
+  {
+    "id": "Q15",
+    "theme": "轻重与取舍",
+    "zh": "如果只留下三样重要的东西，你会留下什么？",
+    "en": "If you could keep just three things that matter, what would they be?"
+  },
+  {
+    "id": "Q16",
+    "theme": "休息与节奏",
+    "zh": "对现在的你来说，怎样才算休息？",
+    "en": "What would count as rest for you right now?"
+  },
+  {
+    "id": "Q17",
+    "theme": "休息与节奏",
+    "zh": "如果给自己五分钟，你想用来做什么？",
+    "en": "If you gave yourself five minutes, what would you use them for?"
+  },
+  {
+    "id": "Q18",
+    "theme": "休息与节奏",
+    "zh": "今天有什么可以晚一点再做？",
+    "en": "What could wait until a little later today?"
+  },
+  {
+    "id": "Q19",
+    "theme": "休息与节奏",
+    "zh": "什么时候，你最容易感到从容？",
+    "en": "When do you find it easiest to feel unhurried?"
+  },
+  {
+    "id": "Q20",
+    "theme": "休息与节奏",
+    "zh": "如果不用赶路，你会注意到什么？",
+    "en": "If you were not in a hurry, what might you notice?"
+  },
+  {
+    "id": "Q21",
+    "theme": "看待自己",
+    "zh": "如果朋友遇到同样的事，你想对他说什么？",
+    "en": "If a friend were facing the same thing, what would you want to say to them?"
+  },
+  {
+    "id": "Q22",
+    "theme": "看待自己",
+    "zh": "今天的自己，有哪一点值得你认可？",
+    "en": "What is one thing you can give yourself credit for today?"
+  },
+  {
+    "id": "Q23",
+    "theme": "看待自己",
+    "zh": "有没有一件事，你愿意允许自己暂时不会？",
+    "en": "Is there something you could allow yourself not to know how to do yet?"
+  },
+  {
+    "id": "Q24",
+    "theme": "看待自己",
+    "zh": "如果不必证明什么，你会怎样选择？",
+    "en": "What would you choose if you had nothing to prove?"
+  },
+  {
+    "id": "Q25",
+    "theme": "看待自己",
+    "zh": "你想对刚才那个烦躁的自己说一句什么？",
+    "en": "What would you like to say to the frustrated version of yourself from a moment ago?"
+  },
+  {
+    "id": "Q26",
+    "theme": "换个角度",
+    "zh": "如果从明天回头看，今天的什么可能没那么重要？",
+    "en": "Looking back from tomorrow, what about today might matter less?"
+  },
+  {
+    "id": "Q27",
+    "theme": "换个角度",
+    "zh": "换一个角度，眼前的事还可能意味着什么？",
+    "en": "From another angle, what else might this situation mean?"
+  },
+  {
+    "id": "Q28",
+    "theme": "换个角度",
+    "zh": "这件事里，有什么是你还不知道的？",
+    "en": "What is something you do not yet know about this situation?"
+  },
+  {
+    "id": "Q29",
+    "theme": "换个角度",
+    "zh": "如果把“必须”换成“可以”，你会怎么描述眼前的事？",
+    "en": "If you replaced “must” with “could,” how would you describe what is in front of you?"
+  },
+  {
+    "id": "Q30",
+    "theme": "换个角度",
+    "zh": "你现在需要一个答案，还是一点空间？",
+    "en": "Do you need an answer right now, or a little space?"
+  },
+  {
+    "id": "Q31",
+    "theme": "下一小步",
+    "zh": "接下来，有哪一步小到你愿意试试？",
+    "en": "What next step is small enough that you would be willing to try it?"
+  },
+  {
+    "id": "Q32",
+    "theme": "下一小步",
+    "zh": "如果只做五分钟，你想从哪里开始？",
+    "en": "If you worked on it for just five minutes, where would you start?"
+  },
+  {
+    "id": "Q33",
+    "theme": "下一小步",
+    "zh": "今天怎样的进展，对你来说就够了？",
+    "en": "What amount of progress would be enough for you today?"
+  },
+  {
+    "id": "Q34",
+    "theme": "下一小步",
+    "zh": "有什么小改变，能让接下来轻松一点？",
+    "en": "What small change could make what comes next a little easier?"
+  },
+  {
+    "id": "Q35",
+    "theme": "下一小步",
+    "zh": "回到这个页面后，你想先做哪一件事？",
+    "en": "When you return to this page, what is the first thing you want to do?"
+  },
+  {
+    "id": "Q36",
+    "theme": "时间与变化",
+    "zh": "有什么曾经很难的事，现在已经变容易了？",
+    "en": "What used to be difficult for you that has become easier?"
+  },
+  {
+    "id": "Q37",
+    "theme": "时间与变化",
+    "zh": "如果给这件事多一点时间，你希望什么会改变？",
+    "en": "If you gave this more time, what would you hope might change?"
+  },
+  {
+    "id": "Q38",
+    "theme": "时间与变化",
+    "zh": "今天的你，和过去相比有什么不同？",
+    "en": "What is different about you today compared with the past?"
+  },
+  {
+    "id": "Q39",
+    "theme": "时间与变化",
+    "zh": "此刻的什么，你希望以后还记得？",
+    "en": "What about this moment would you like to remember later?"
+  },
+  {
+    "id": "Q40",
+    "theme": "时间与变化",
+    "zh": "有什么变化，你愿意慢慢等它发生？",
+    "en": "What change would you be willing to wait for patiently?"
+  },
+  {
+    "id": "Q41",
+    "theme": "边界与支持",
+    "zh": "什么样的帮助，会让这件事容易一点？",
+    "en": "What kind of help would make this a little easier?"
+  },
+  {
+    "id": "Q42",
+    "theme": "边界与支持",
+    "zh": "有什么请求，你可以晚一点再回应？",
+    "en": "Is there a request you could respond to a little later?"
+  },
+  {
+    "id": "Q43",
+    "theme": "边界与支持",
+    "zh": "怎样的安排，会更尊重你的精力？",
+    "en": "What arrangement would better respect the energy you have?"
+  },
+  {
+    "id": "Q44",
+    "theme": "边界与支持",
+    "zh": "有哪句话，是你希望别人现在对你说的？",
+    "en": "What would you like someone to say to you right now?"
+  },
+  {
+    "id": "Q45",
+    "theme": "边界与支持",
+    "zh": "如果可以把一件事交出去，你会选什么？",
+    "en": "If you could hand one thing over to someone else, what would you choose?"
+  },
+  {
+    "id": "Q46",
+    "theme": "好奇与日常",
+    "zh": "今天有什么小事，让你愿意再看一眼？",
+    "en": "What small thing today made you want to take another look?"
+  },
+  {
+    "id": "Q47",
+    "theme": "好奇与日常",
+    "zh": "如果暂时没有任务，你最想探索什么？",
+    "en": "If you had no tasks for a moment, what would you most like to explore?"
+  },
+  {
+    "id": "Q48",
+    "theme": "好奇与日常",
+    "zh": "有什么平常的东西，是你不想失去的？",
+    "en": "What ordinary thing would you not want to lose?"
+  },
+  {
+    "id": "Q49",
+    "theme": "好奇与日常",
+    "zh": "如果给今天取个名字，你会叫它什么？",
+    "en": "If you gave today a name, what would you call it?"
+  },
+  {
+    "id": "Q50",
+    "theme": "好奇与日常",
+    "zh": "页面恢复之后，你希望带回去一个怎样的念头？",
+    "en": "When the page returns, what thought would you like to take back with you?"
+  }
+]

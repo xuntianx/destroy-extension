@@ -1,0 +1,19 @@
+/* Fonts are packaged locally; see docs/font-sources.md for licenses and coverage. */
+@font-face {
+  font-family: "Destroy Manrope";
+  src: url("/assets/fonts/manrope-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Destroy Han";
+  src: url("/assets/fonts/source-han-ui.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+}
+:root {
+  color-scheme: light;
+  --destroy-font: "Destroy Manrope", "Destroy Han", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}

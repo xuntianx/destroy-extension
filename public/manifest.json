@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_appName__",
+  "description": "__MSG_description__",
+  "version": "0.1.2",
+  "icons": {
+    "16": "assets/icons/flame-16.png",
+    "32": "assets/icons/flame-32.png",
+    "48": "assets/icons/flame-48.png",
+    "128": "assets/icons/flame-128.png"
+  },
+  "minimum_chrome_version": "116",
+  "default_locale": "en",
+  "permissions": ["activeTab", "scripting", "storage", "offscreen"],
+  "web_accessible_resources": [
+    { "resources": ["overlay.html"], "matches": ["<all_urls>"] }
+  ],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": {
+    "default_icon": {
+      "16": "assets/icons/flame-16.png",
+      "32": "assets/icons/flame-32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "__MSG_appName__"
+  },
+  "commands": {
+    "summon-monster": {
+      "suggested_key": { "default": "Alt+Shift+D", "mac": "Alt+Shift+D" },
+      "description": "__MSG_summonCommand__"
+    }
+  }
+}

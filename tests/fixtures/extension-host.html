@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>摧毁 · Chrome 实装验收页</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        color: #203a32;
+        background: #fbfaf3;
+        font:
+          18px/1.9 Georgia,
+          "Microsoft YaHei",
+          serif;
+      }
+      header,
+      main {
+        max-width: 820px;
+        padding: 32px 24px;
+        margin: auto;
+      }
+      header {
+        border-bottom: 1px solid #c9d3be;
+      }
+      h1 {
+        font-size: clamp(30px, 5vw, 48px);
+        line-height: 1.3;
+      }
+      h2 {
+        line-height: 1.4;
+      }
+      section {
+        padding: 36px 0;
+        border-bottom: 1px solid #c9d3be;
+      }
+      button,
+      textarea {
+        font: inherit;
+        border: 1px solid #97a88a;
+        border-radius: 6px;
+        padding: 10px 16px;
+      }
+      button {
+        cursor: pointer;
+        background: #e8eddf;
+        color: inherit;
+      }
+      textarea {
+        display: block;
+        width: 100%;
+        min-height: 110px;
+        background: white;
+      }
+      img {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+        border-radius: 12px;
+      }
+      blockquote {
+        border-left: 3px solid #9aac83;
+        margin: 20px 0;
+        padding-left: 20px;
+      }
+      .note {
+        color: #52664e;
+        font-size: 15px;
+      }
+      a {
+        color: #285f46;
+      }
+      #workbench {
+        scroll-margin-top: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="note">DESTROY · EXTENSION INTEGRATION CHECK</p>
+      <h1>让怪兽出现在<br />真正的网页上。</h1>
+      <p>
+        这是普通长网页。它不会自行召唤怪兽，也没有本地演示会话。只有已加载的
+        Chrome 扩展才能启动摧毁流程。
+      </p>
+      <p class="note">
+        This page does not run the monster demo or emulate extension APIs. Load
+        the extension in Chrome, then use its shortcut.
+      </p>
+      <a href="#workbench">去页面中部测试 / Go to the middle</a>
+    </header>
+    <main>
+      <div id="before"></div>
+      <section id="workbench">
+        <p class="note">从这里召唤 / START HERE</p>
+        <h2>先留下一个草稿，再按快捷键。</h2>
+        <label for="draft">未保存草稿 / Unsaved draft</label>
+        <textarea id="draft">
+恢复后，请保留这段草稿。 / Keep this draft after recovery.</textarea>
+        <p>
+          <button id="counter" type="button">
+            网页按钮：点击加一 / Add one
+          </button>
+          <output id="count" aria-live="polite">0</output>
+        </p>
+        <p>
+          在 Chrome 中按 <strong>Alt + Shift + D</strong>（macOS：Option + Shift
+          + D）。观察第一击是否发生在眼前，随后页面是否自动向下滚动。
+        </p>
+        <p>
+          破坏与答题时尝试操作上面的草稿和按钮，它们应被锁定。回答后应回到这里，草稿、按钮计数和点击事件应保留。
+        </p>
+        <p class="note">
+          本页只保存当前内存中的按钮计数；不上传、不持久保存草稿或回答。 / No
+          draft or answer is uploaded or stored.
+        </p>
+        <a href="#ending">原网页链接仍应可用 / Original page link</a>
+      </section>
+      <div id="after"></div>
+      <section id="ending">
+        <h2>页面的结尾，新的开始。</h2>
+        <p>
+          如果这一轮结束后还能输入草稿、点击按钮、访问链接，说明原网页已经重新可操作。
+        </p>
+        <a href="#workbench">返回草稿 / Back to the draft</a>
+      </section>
+    </main>
+    <script>
+      const scenes = [
+        [
+          "一页可以慢慢读",
+          "A page can wait",
+          "这是一段普通网页文字，含有加粗、斜体和中英文。小怪兽经过以后，它应该还是原来的样子。",
+        ],
+        [
+          "给注意力一点空间",
+          "Room for attention",
+          "不用急着完成所有事情。眼前的文章、配图和链接，构成一次可以重复观察的真实页面操作。",
+        ],
+        [
+          "抬头看看远处",
+          "Look a little further",
+          "山丘和树木用来观察图片破碎。碎片应该保留来自原图的形状与颜色，而不是只剩空白色块。",
+        ],
+        [
+          "留住原来的连接",
+          "Keep the connections",
+          "页面上的按钮有自己的点击事件，输入框保留未提交的内容。恢复应该让这些状态继续存在。",
+        ],
+      ];
+      for (const [id, repetitions] of [
+        ["before", 4],
+        ["after", 10],
+      ]) {
+        const parent = document.getElementById(id);
+        for (let i = 0; i < repetitions; i++) {
+          const [title, english, body] = scenes[i % scenes.length];
+          const section = document.createElement("section");
+          section.innerHTML = `<h2>${title} / ${english}</h2><p>${body}</p><p>The original document stays in place. <strong>Keep the words</strong>, <em>keep their emphasis</em>, and return to the same reading position after reflection.</p><blockquote>H<sub>2</sub>O · x<sup>2</sup> · 中文与 English，保持各自的排版。</blockquote>`;
+          if (i % 2 === 0) {
+            const image = document.createElement("img");
+            image.src = "landscape.svg";
+            image.alt = "山丘、太阳与树林 / Hills, sun and trees";
+            image.width = 760;
+            image.height = 270;
+            section.append(image);
+          }
+          parent.append(section);
+        }
+      }
+      let clicks = 0;
+      document.getElementById("counter").addEventListener("click", () => {
+        document.getElementById("count").value = String(++clicks);
+      });
+    </script>
+  </body>
+</html>

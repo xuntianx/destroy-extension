@@ -1,0 +1,8 @@
+* text=auto eol=lf
+docs/product-plan-v1.2.md whitespace=-blank-at-eol
+public/assets/audio/License.txt -text whitespace=-blank-at-eol
+public/assets/audio/License-*.txt -text whitespace=-blank-at-eol
+*.opus binary
+tests/fixtures/fonts/OFL.txt -text whitespace=-blank-at-eol
+*.ttf binary
+public/assets/fonts/*-LICENSE.txt -text whitespace=-blank-at-eol

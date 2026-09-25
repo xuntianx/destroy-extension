@@ -1,0 +1,20 @@
+[
+  {
+    "file": "source-han-ui.woff2",
+    "family": "Destroy Han",
+    "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/Variable/TTF/Subset/SourceHanSansCN-VF.ttf",
+    "license": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/LICENSE.txt",
+    "sourceSha256": "25a01e41b5cc99893eb35a6cd2cc7611841dc19eb03cbaf7f0c1de8210f2ba0b",
+    "sha256": "362e5abfa724bf5e0067d7c195ad6db8bcee4c61893980c01aaba2e6786d9156",
+    "bytes": 69864
+  },
+  {
+    "file": "manrope-latin.woff2",
+    "family": "Destroy Manrope",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+    "sourceSha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "sha256": "f6e5f8e1c50899dd0ab6991b682fb7e390639a1f0f72331f635c2e6fbbcbdb32",
+    "bytes": 26956
+  }
+]

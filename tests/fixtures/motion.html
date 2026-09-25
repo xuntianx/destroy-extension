@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Destroy · 怪兽动作检查</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f4f4e9;
+        color: #2e4936;
+        font:
+          16px/1.6 "Segoe UI",
+          "Microsoft YaHei",
+          sans-serif;
+      }
+      main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 28px;
+      }
+      button,
+      select {
+        font: inherit;
+        margin: 4px;
+        padding: 9px 15px;
+        color: #2e4936;
+        border: 1px solid #aebe9e;
+        border-radius: 7px;
+        background: #e1e9d8;
+      }
+      #stage {
+        position: relative;
+        height: 360px;
+        border: 1px solid #c1ccb6;
+        background: #fafbf3;
+        overflow: hidden;
+        margin-top: 20px;
+      }
+      #monster {
+        position: absolute;
+        width: 248px;
+        height: 208px;
+        left: calc(50% - 124px);
+        top: 130px;
+        pointer-events: none;
+      }
+      #monster svg {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+      #floor {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        top: 326.8px;
+        height: 1px;
+        background: #78926888;
+      }
+      #beam {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+      #zzz {
+        position: absolute;
+        left: calc(50% + 70px);
+        top: 165px;
+        color: #6d815d;
+        font: italic 24px Georgia;
+        opacity: 0;
+        pointer-events: none;
+      }
+      #scrub {
+        width: min(600px, 90vw);
+      }
+      #status {
+        display: block;
+        white-space: pre-wrap;
+        font: 13px/1.7 monospace;
+        margin: 14px 0;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      p {
+        color: #6a7861;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>登场、攻击，再安心睡下。</h1>
+      <p>
+        与插件共用五套动作。播放看节奏，拖动进度看关节；关键帧查看落地、命中或睡眠姿势。脚部测量覆盖爪击、尾扫、吐息和睡眠的原地姿势，不计入登场腾空。
+      </p>
+      <select id="action">
+        <option value="entrance">登场</option>
+        <option value="claw">爪击</option>
+        <option value="tail">尾扫</option>
+        <option value="breath">吐息</option>
+        <option value="sleep">睡眠</option></select
+      ><button id="play">播放</button><button id="mirror">左右翻转</button
+      ><button id="keyframe">查看关键帧</button
+      ><button id="measure">测量整段脚部偏移</button>
+      <div id="stage">
+        <div id="floor"></div>
+        <div id="monster"></div>
+        <svg id="beam"></svg>
+        <span id="zzz" aria-hidden="true">z Z z</span>
+      </div>
+      <label
+        >动作进度
+        <input id="scrub" type="range" min="0" max="1000" value="0" /></label
+      ><output id="status"></output>
+    </main>
+    <script type="module" src="motion.ts"></script>
+  </body>
+</html>

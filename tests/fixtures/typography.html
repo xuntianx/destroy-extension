@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Destroy · 文字切片对照</title>
+    <style>
+      @font-face {
+        font-family: GelasioFixture;
+        src: url("fonts/Gelasio.ttf") format("truetype");
+        font-weight: 400 700;
+        font-display: swap;
+      }
+      #webfont {
+        font-family: GelasioFixture, "Microsoft YaHei", serif;
+        font-weight: 450;
+      }
+      #webfont strong {
+        font-weight: 700;
+      }
+      body {
+        margin: 0;
+        background: #f5f3ea;
+        color: #263c31;
+        font:
+          17px/1.8 Georgia,
+          "Microsoft YaHei",
+          serif;
+      }
+      header,
+      main {
+        max-width: 880px;
+        margin: auto;
+        padding: 24px;
+      }
+      header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: #f5f3ea;
+        z-index: 2;
+        border-bottom: 1px solid #d0d5c8;
+      }
+      button,
+      select {
+        font: inherit;
+        padding: 7px 12px;
+        margin: 4px;
+        border: 1px solid #9bad91;
+        border-radius: 5px;
+        background: #e2e9d8;
+        color: #28452f;
+      }
+      main {
+        padding-top: 250px;
+      }
+      .sample {
+        max-width: 620px;
+        margin: 28px 0;
+        padding: 19px;
+        border: 1px solid #a2b596;
+        border-radius: 10px;
+        background: #fffdf4;
+        font:
+          20px/1.7 Georgia,
+          "Microsoft YaHei",
+          serif;
+        letter-spacing: 0.015em;
+      }
+      #mixed strong {
+        color: #884e34;
+        font-weight: 800;
+      }
+      #mixed em {
+        color: #426f62;
+        font-style: italic;
+      }
+      #mixed a {
+        color: #426c9e;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
+      #mixed sup {
+        font-size: 65%;
+        vertical-align: super;
+      }
+      #mixed span {
+        font-variant: small-caps;
+      }
+      #quote {
+        box-sizing: content-box;
+        width: 450px;
+      }
+      #quote::before {
+        content: "“";
+        color: #b0763b;
+        font-size: 34px;
+        line-height: 1;
+        vertical-align: middle;
+      }
+      #quote::after {
+        content: "”";
+        color: #b0763b;
+        font-size: 34px;
+        line-height: 1;
+      }
+      #inline-img {
+        width: 36px;
+        height: 26px;
+        vertical-align: middle;
+        border-radius: 3px;
+        margin: 0 8px;
+      }
+      #code {
+        font:
+          16px/1.8 Consolas,
+          monospace;
+        white-space: pre-wrap;
+        tab-size: 4;
+        max-width: 540px;
+      }
+      #rtl {
+        direction: rtl;
+        max-width: 530px;
+      }
+      #status {
+        display: block;
+        min-height: 3.2em;
+        font: 13px/1.6 monospace;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+      }
+      label {
+        font: 14px sans-serif;
+      }
+      canvas {
+        background: #cfdbc0;
+      }
+      .hint {
+        color: #6b7865;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>摧毁 · 文字切片对照</b>
+      <p class="hint">
+        选择一段内容，对照原文、静止切片和碎裂后的效果。此页保留原节点。
+      </p>
+      <select id="target">
+        <option value="mixed">中英文混排</option>
+        <option value="quote">伪元素与内嵌图片</option>
+        <option value="code">代码与换行</option>
+        <option value="rtl">双向文字</option>
+        <option value="canvas">Canvas 图像</option>
+        <option value="webfont">本地 Web 字体</option>
+        <option value="vector">SVG 渐变与内部引用</option>
+        <option value="inline-vector">文字与 SVG 图标</option></select
+      ><button id="original">原文</button><button id="still">静止切片</button
+      ><button id="break">碎裂</button><button id="compare">测量副本排版</button
+      ><output id="status"></output>
+    </header>
+    <main>
+      <p id="mixed" class="sample">
+        给自己一点空间，<strong>把重要的事情放在眼前</strong>。Take one small
+        step, <em>then take a breath</em>. 链接的<a href="#mixed"
+          >下划线和颜色</a
+        >也应留下。Energy = mc<sup>2</sup>，还有
+        <span>small caps</span
+        >、中文标点，以及这一段自然换行的文字。<br />第二行从明确的换行符开始。恢复后，原节点和点击行为继续保留。
+      </p>
+      <p id="quote" class="sample">
+        允许自己稍微停一停。<img
+          id="inline-img"
+          src="landscape.svg"
+          alt="小图"
+        />文字里的小图应保持原来的大小，不铺满整行。A quiet thought can be a
+        beginning.
+      </p>
+      <pre id="code" class="sample">
+function breathe() {
+	const next = "one thing at a time";
+	return next;
+}
+// 中英文代码注释，保留空格与换行。</pre>
+      <p id="rtl" class="sample" lang="ar">
+        خذ نفسًا عميقًا ثم ابدأ من جديد. <b>خطوة واحدة</b> تكفي الآن. A little
+        room to breathe. 给自己一点空间。
+      </p>
+      <canvas
+        id="canvas"
+        class="sample"
+        width="480"
+        height="160"
+        aria-label="Canvas 视觉副本"
+      ></canvas>
+      <p id="webfont" class="sample">
+        A little space to breathe.
+        <strong>Keep the shape of each word.</strong> Variable weights and
+        kerning should match the original page, including <em>italic words</em>,
+        mixed with 中文和标点。When a thought feels heavy, take one small step.
+      </p>
+      <svg
+        id="vector"
+        class="sample"
+        xmlns="http://www.w3.org/2000/svg"
+        width="480"
+        height="210"
+        viewBox="0 0 480 210"
+        style="display: block; border-radius: 12px"
+        aria-label="SVG 山丘插画"
+      >
+        <defs>
+          <linearGradient id="sky" x2="0" y2="1">
+            <stop stop-color="#e5edc4" />
+            <stop offset="1" stop-color="#a6c8af" />
+          </linearGradient>
+          <clipPath id="sky-window">
+            <rect width="480" height="210" rx="12" />
+          </clipPath>
+          <g id="tree">
+            <path d="M0 0v-45" stroke="#254d42" stroke-width="5" />
+            <path d="M0-13C-38-18-22-58 0-48C24-65 43-27 0-13" fill="#517e66" />
+          </g>
+        </defs>
+        <g clip-path="url(#sky-window)">
+          <rect width="480" height="210" fill="url(#sky)" />
+          <circle cx="385" cy="52" r="27" fill="#fff6ce" />
+          <path d="M0 145Q115 24 265 133T480 95V210H0Z" fill="#7da28a" />
+          <path d="M0 179Q168 71 325 165T480 150V210H0Z" fill="#507862" />
+          <use href="#tree" x="68" y="168" />
+          <use
+            href="#tree"
+            x="313"
+            y="172"
+            transform="translate(31 18) scale(.8)"
+          />
+          <text
+            x="24"
+            y="38"
+            font-family="Georgia"
+            font-size="21"
+            fill="#244637"
+          >
+            A little room to breathe.
+          </text>
+        </g>
+      </svg>
+      <p id="inline-vector" class="sample">
+        保留文字里的图标
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          style="vertical-align: middle; margin: 0 8px; color: #5b8664"
+          aria-label="叶子"
+        >
+          <path d="M5 25C0 8 14 1 28 4C28 20 20 30 5 25Z" fill="currentColor" />
+          <path d="M6 25L23 9" fill="none" stroke="#fff4d8" stroke-width="2" />
+        </svg>
+        ，也保留它和这一行文字的关系。An inline leaf, still part of the
+        sentence.
+      </p>
+    </main>
+    <script type="module" src="typography.ts"></script>
+  </body>
+</html>

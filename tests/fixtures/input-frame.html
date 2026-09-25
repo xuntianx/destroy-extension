@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>隔离答题框</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        color: #294431;
+        font:
+          16px/1.7 system-ui,
+          sans-serif;
+      }
+      p {
+        margin: 0;
+      }
+      textarea {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100px;
+        margin: 12px 0;
+        font: 16px/1.6 system-ui;
+      }
+      button {
+        padding: 8px 14px;
+        font: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <p>今天，你可以放下哪一件小事？</p>
+      <textarea aria-label="iframe 回答"></textarea
+      ><button disabled>回答并清空</button><output></output>
+    </form>
+    <script type="module" src="input-frame.ts"></script>
+  </body>
+</html>

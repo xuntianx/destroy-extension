@@ -1,0 +1,86 @@
+:root {
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #263e31;
+  background: #f5f5eb;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 850px;
+  margin: auto;
+  padding: 48px 24px;
+}
+.eyebrow {
+  letter-spacing: 0.18em;
+  color: #7e815e;
+  font-size: 12px;
+}
+h1 {
+  font-size: 44px;
+  line-height: 1.15;
+}
+h1 small {
+  font-size: 24px;
+  color: #77806c;
+}
+h2 {
+  font-size: 18px;
+  margin-top: 32px;
+}
+p {
+  line-height: 1.8;
+  color: #677260;
+}
+.grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+button {
+  font: inherit;
+  padding: 12px 18px;
+  border: 1px solid #b3c0aa;
+  border-radius: 8px;
+  background: #e4eada;
+  color: #294331;
+  cursor: pointer;
+}
+button:hover {
+  background: #d5dfc8;
+}
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #d47a40;
+  outline-offset: 3px;
+}
+.controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #fffdf6;
+  padding: 20px;
+  border-radius: 12px;
+}
+label {
+  display: grid;
+  gap: 10px;
+}
+input {
+  accent-color: #52704b;
+}
+details {
+  border-top: 1px solid #cfd7c5;
+  padding: 20px 0;
+  margin-top: 32px;
+  font-size: 13px;
+}
+output {
+  display: block;
+  padding: 12px;
+  overflow-wrap: anywhere;
+}
+#status {
+  min-height: 2em;
+}

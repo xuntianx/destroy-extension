@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Destroy · 长文章验收页</title>
+    <style>
+      body {
+        margin: 0;
+        background: #fbfaf3;
+        color: #203a32;
+        font:
+          18px/1.9 Georgia,
+          "Microsoft YaHei",
+          serif;
+      }
+      header {
+        padding: 22px 7vw;
+        background: #284b3c;
+        color: #fafbe8;
+      }
+      main {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px 24px;
+      }
+      h1 {
+        font-size: 46px;
+        line-height: 1.4;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      section {
+        padding: 35px 0;
+        border-bottom: 1px solid #d7ddcc;
+      }
+      button,
+      input,
+      textarea {
+        font: inherit;
+        padding: 8px 14px;
+        border: 1px solid #97a88a;
+        border-radius: 5px;
+      }
+      button {
+        cursor: pointer;
+        background: #e8eddf;
+      }
+      textarea {
+        width: 90%;
+      }
+      img {
+        width: 100%;
+        border-radius: 12px;
+      }
+      .tools {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: #eeefdf;
+        border-bottom: 1px solid #bdcbb0;
+        padding: 12px;
+        z-index: 2;
+        display: flex;
+        gap: 10px;
+        font: 13px sans-serif;
+      }
+      aside {
+        font: 12px sans-serif;
+        padding: 12px;
+        color: #527045;
+      }
+      .card {
+        padding: 25px;
+        background: #e8eddf;
+        border-radius: 14px;
+      }
+      #counter {
+        font-weight: bold;
+      }
+      body.short {
+        font-size: 14px;
+      }
+      .short header,
+      .short #sections,
+      .short main > section,
+      .short aside {
+        display: none;
+      }
+      .short main {
+        padding-top: 60px;
+      }
+      .short h1 {
+        font-size: 26px;
+      }
+      body.container {
+        height: 100vh;
+        overflow: hidden;
+      }
+      .container header,
+      .container aside {
+        display: none;
+      }
+      .container main {
+        box-sizing: border-box;
+        height: calc(100vh - 100px);
+        margin-top: 75px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>DESTROY · 本地验收页</header>
+    <div class="tools">
+      <button id="start">召唤怪兽</button><button id="middle">去文章中部</button
+      ><button id="english">English / 中文</button
+      ><span id="fixture-status">准备就绪</span>
+    </div>
+    <main>
+      <h1>把眼前的烦躁，<br />交给一只小怪兽。</h1>
+      <p>
+        这页用来检查真实 DOM
+        的破坏和恢复。中英文混排、链接、图片、输入框和网页本身的事件，都应该被保留。
+      </p>
+      <div class="card">
+        <label
+          >未保存的草稿<textarea id="draft">
+这段输入需要在恢复后原样保留。</textarea></label
+        ><button id="count">网页按钮：点一次 +1</button
+        ><span id="counter">0</span>
+      </div>
+      <div id="sections"></div>
+      <section>
+        <h2>最后一屏</h2>
+        <p>恢复时需要包含页面开头、中间和结尾。回答不能上传或保存。</p>
+        <a href="#">回到顶部</a>
+      </section>
+    </main>
+    <aside>
+      此页通过开发适配器直接运行同一 Session
+      模块；音频使用本地页面播放，不代表扩展离屏音频和全局快捷键已通过验证。
+    </aside>
+    <script type="module" src="./fixture.ts"></script>
+  </body>
+</html>

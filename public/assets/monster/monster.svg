@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 520" role="img" aria-label="灰绿色卡通小巨兽" class="monster-svg">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#819a6e"/><stop offset="1" stop-color="#526f54"/></linearGradient>
+    <linearGradient id="belly" x2="0.8" y2="1"><stop stop-color="#fff0c9"/><stop offset="1" stop-color="#e9d5a3"/></linearGradient>
+    <linearGradient id="spine" x2="0.8" y2="1"><stop stop-color="#ffb25f"/><stop offset="1" stop-color="#ee8946"/></linearGradient>
+  </defs>
+  <ellipse id="monster-shadow" cx="323" cy="475" rx="137" ry="16" fill="#173e30" opacity=".12"/>
+  <g stroke="#1e3529" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <g id="rig-whole">
+      <g id="rig-tail" transform="translate(285 361)">
+        <path d="M 22 -33 C -16 -33 -50 -11 -92 -19 C -107 -24 -128 -36 -141 -47 L -161 12 C -112 63 -40 72 29 37 Z" fill="url(#skin)"/>
+        <g id="rig-tail-tip" transform="translate(-120 -24)">
+          <path d="M 6 -16 C -39 -15 -78 -49 -107 -106 C -114 -120 -122 -119 -119 -98 C -116 -38 -102 1 -69 31 C -51 48 -19 57 17 59 C -1 35 -2 10 6 -16 Z" fill="url(#skin)"/>
+          <path d="M -112 -76 Q -94 -82 -85 -65 M -96 -31 Q -77 -43 -67 -43" fill="none" stroke="#3b5841" stroke-width="3"/>
+          <circle id="tail-contact" cx="-106" cy="-104" r="2" fill="transparent" stroke="none"/>
+        </g>
+        <path d="M -15 -29 L -23 -57 Q -39 -63 -48 -22" fill="url(#spine)"/>
+      </g>
+      <g id="rig-far-leg" transform="translate(394 397)">
+        <path d="M -18 -22 C 10 -39 46 -9 36 26 L 47 51 Q 55 63 33 66 L -25 67 Q -43 65 -31 37 Z" fill="#526f54"/>
+        <path d="M 15 48 Q 27 40 33 67 Q 13 68 9 62 Z M 35 47 Q 46 42 51 65 Q 40 63 34 60 Z" fill="#fff0d2" stroke-width="4"/>
+      </g>
+      <g id="rig-far-arm" transform="translate(411 286)">
+        <path d="M -5 -17 Q 25 -24 37 4 Q 62 -1 74 18 Q 79 37 61 43 Q 51 47 42 36 Q 24 46 6 29 Q -17 13 -5 -17 Z" fill="#527154"/>
+        <path d="M 61 17 Q 75 14 77 37 Q 62 33 58 27 Z M 48 29 Q 59 24 63 46 Q 47 43 45 37 Z" fill="#fff0d2" stroke-width="4"/>
+      </g>
+      <g id="rig-torso" transform="translate(318 338)">
+        <g fill="url(#spine)">
+          <path d="M -80 40 Q -113 37 -116 8 Q -102 -2 -78 9 Z"/>
+          <path d="M -91 -4 Q -131 -17 -129 -47 Q -111 -58 -84 -37 Z"/>
+          <path d="M -82 -49 Q -123 -78 -110 -103 Q -91 -109 -70 -83 Z"/>
+        </g>
+        <path d="M -60 -105 C -25 -153 62 -152 91 -73 C 112 -32 128 32 95 70 C 68 103 -7 118 -62 87 C -116 60 -115 -33 -60 -105 Z" fill="url(#skin)"/>
+        <path d="M 16 -117 C 44 -125 76 -99 83 -65 C 99 -17 105 24 80 54 C 58 83 19 100 -23 86 C -38 49 -29 19 -20 -13 C -8 -48 -11 -90 16 -117 Z" fill="url(#belly)" stroke="none"/>
+        <g stroke="#b5a270" stroke-width="3" fill="none"><path d="M -3 -72 Q 35 -44 84 -62"/><path d="M -16 -26 Q 32 1 95 -19"/><path d="M -27 21 Q 24 47 90 27"/><path d="M -27 65 Q 13 90 68 66"/></g>
+        <path d="M -59 -48 l -9 7 M -75 -20 l -9 5" stroke="#446245" stroke-width="4"/>
+      </g>
+      <g id="rig-head" transform="translate(353 209)">
+        <g fill="url(#spine)"><path d="M -95 20 Q -142 -3 -132 -40 Q -100 -49 -82 -22 Z"/><path d="M -76 -47 Q -121 -76 -105 -111 Q -75 -111 -49 -81 Z"/><path d="M -39 -80 Q -60 -135 -37 -156 Q -5 -149 26 -104 Z"/></g>
+        <path d="M -95 -6 C -100 -70 -62 -112 2 -120 C 64 -130 111 -84 118 -37 C 165 -33 182 -8 177 27 C 173 59 146 70 119 70 C 92 100 18 106 -25 81 C -81 89 -106 51 -95 -6 Z" fill="url(#skin)"/>
+        <path d="M 63 14 C 94 -3 157 0 168 19" fill="none" stroke="#416043" stroke-width="3"/>
+        <path d="M 126 -7 q 12 -3 12 10 M 150 -3 q 8 0 7 8" stroke-width="5"/>
+        <g id="rig-eyes">
+          <path d="M -19 -63 C -25 -37 -13 -10 11 -9 C 31 -6 48 -27 41 -51 Z" fill="#fff0d2"/>
+          <ellipse cx="23" cy="-32" rx="10" ry="18" fill="#15291e" stroke="none"/><circle cx="27" cy="-41" r="4" fill="#fff" stroke="none"/>
+          <path d="M 85 -57 Q 79 -30 94 -20 Q 108 -14 118 -27 L 115 -57 Z" fill="#fff0d2" stroke-width="4"/>
+          <ellipse cx="106" cy="-38" rx="6" ry="13" fill="#15291e" stroke="none"/>
+          <path d="M -30 -83 Q 4 -81 43 -46 Q 56 -36 55 -56 Q 57 -26 40 -26 Q 5 -44 -27 -52 Z" fill="#1e3529" stroke-width="3"/>
+          <path d="M 85 -49 Q 99 -75 118 -80 L 127 -55 L 92 -31 Z" fill="#1e3529" stroke-width="3"/>
+        </g>
+        <g id="rig-sleep-eyes" opacity="0"><path d="M -19 -33 Q 10 -5 41 -35 M 84 -35 Q 101 -17 118 -35" fill="none" stroke="#20382a" stroke-width="6"/></g>
+        <path d="M -53 -7 Q -35 -15 -24 -2 Q -29 9 -46 6 Z" fill="#f4a454" stroke="none"/>
+        <path id="mouth-open" d="M -3 41 Q 62 34 155 48 Q 117 106 47 83 Q 11 72 -3 41" fill="#213027" stroke="none" opacity="0"/><g id="rig-jaw"><path d="M -3 41 Q 17 30 48 43 Q 99 67 155 48" fill="none"/>
+          <path d="M 52 47 L 60 68 Q 72 68 77 53 M 129 55 L 140 72 L 150 53" fill="#fff0d2" stroke-width="4"/>
+        </g>
+        <circle id="mouth-contact" cx="143" cy="57" r="2" fill="transparent" stroke="none"/>
+      </g>
+      <g id="rig-near-leg" transform="translate(286 407)">
+        <path d="M -35 -54 C -5 -81 41 -58 48 -14 C 54 16 39 40 24 44 Q 45 48 44 67 Q 14 78 -19 72 L -55 70 Q -74 68 -64 47 L -55 24 C -75 -1 -63 -35 -35 -54 Z" fill="url(#skin)"/>
+        <g fill="#fff0d2" stroke-width="4"><path d="M -48 51 Q -29 36 -26 72 L -37 85 Q -56 77 -59 67 Z"/><path d="M -12 51 Q 4 33 15 71 L 6 85 Q -12 79 -17 67 Z"/><path d="M 23 50 Q 40 42 47 71 L 43 82 Q 26 76 21 66 Z"/></g>
+        <path d="M -54 -3 Q -59 14 -43 26" fill="none" stroke="#3e5b42" stroke-width="3"/>
+        <circle id="near-foot-contact" cx="6" cy="85" r="2" fill="transparent" stroke="none"/>
+      </g>
+      <g id="rig-arm" transform="translate(284 290)">
+        <path d="M -24 -22 C -2 -38 29 -22 29 4 Q 35 18 20 36 Q 4 48 -17 28 Q -43 10 -24 -22 Z" fill="url(#skin)"/>
+        <g id="rig-forearm" transform="translate(17 19)">
+          <path d="M -16 -14 Q 4 -27 25 -8 Q 48 -19 66 -6 Q 85 3 81 21 Q 77 37 60 34 Q 47 50 29 40 Q 6 45 -11 27 Q -30 9 -16 -14 Z" fill="url(#skin)"/>
+          <g fill="#fff0d2" stroke-width="4"><path d="M 67 -5 Q 87 -9 93 15 Q 77 14 67 5 Z"/><path d="M 59 12 Q 78 8 80 36 Q 60 31 54 23 Z"/><path d="M 42 28 Q 60 23 65 48 Q 48 44 39 38 Z"/></g>
+          <circle id="claw-contact" cx="93" cy="15" r="2" fill="transparent" stroke="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="joint-guides" fill="#fff" stroke="#dc692f" stroke-width="2" style="display:none">
+    <circle cx="284" cy="290" r="6"/><circle cx="285" cy="361" r="6"/><circle cx="353" cy="209" r="6"/><circle cx="286" cy="407" r="6"/>
+  </g>
+</svg>

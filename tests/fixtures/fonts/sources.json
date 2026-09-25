@@ -1,0 +1,16 @@
+[
+  {
+    "file": "Gelasio.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio%5Bwght%5D.ttf",
+    "sha256": "4daecea457258c9ebeb8bc99ed3fd24353618bfad3ea4b93fa0b5d0468fc04e4",
+    "bytes": 168556,
+    "retrieved": "2026-09-22"
+  },
+  {
+    "file": "OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/OFL.txt",
+    "sha256": "b393cb01867c919b44381512120dc3e4c954c7b47e2035c405f3a324799a4d29",
+    "bytes": 4387,
+    "retrieved": "2026-09-22"
+  }
+]
